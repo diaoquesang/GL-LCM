@@ -1,14 +1,6 @@
 # GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images
 
-<div align="center">
-
-[![](https://img.shields.io/github/stars/diaoquesang/GL-LCM)](https://github.com/diaoquesang/GL-LCM)
-[![](https://img.shields.io/github/forks/diaoquesang/GL-LCM)](https://github.com/diaoquesang/GL-LCM)
-[![](https://img.shields.io/github/issues/diaoquesang/GL-LCM)](https://github.com/diaoquesang/GL-LCM)
-[![](https://img.shields.io/github/license/diaoquesang/GL-LCM)](https://github.com/diaoquesang/GL-LCM/blob/main/LICENSE)  
-</div>
-
-This code is a **pytorch** implementation of our paper [**"BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models"**](https://arxiv.org/pdf/2412.15670).
+This code is a **pytorch** implementation of our paper **"GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images"**.
 
 
 ## Visualization
@@ -244,5 +236,3 @@ python metrics.py
   year={2024}
 }
 ```
-## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=diaoquesang/BS-LDM&type=Date)](https://star-history.com/#diaoquesang/BS-LDM&Date)
