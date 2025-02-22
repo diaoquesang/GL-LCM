@@ -62,10 +62,10 @@ Overview of the proposed BS-LDM: (a) The training process of BS-LDM, where CXR a
 * NVIDIA GPU (memory>=32G) + CUDA cuDNN
 
 ### Pre-trained models
-[VQGAN - SZCH-X-Rays](https://drive.google.com/file/d/1KcVK0F7lG5L9Zc0-pWPS9pucAWIG3yFc/view?usp=sharing)
-[UNet - SZCH-X-Rays](https://drive.google.com/file/d/1zt5rV-d5wXVXCOgYqqM3C3r4wap6XkBe/view?usp=sharing)
-[VQGAN - JSRT](https://drive.google.com/file/d/17qp7H3v6L4fOqZJCTWifpzXGydEQSloU/view?usp=sharing)
-[UNet - JSRT](https://drive.google.com/file/d/12b2rykq6lw1hajEbMJtidJZRVl-ZXX3a/view?usp=sharing)
+[VQGAN - SZCH-X-Rays](https://drive.google.com/file/d/1L6M_2AoOgtPhi1B-klUKFUruyk__-_E-/view?usp=drive_link)
+[UNet - SZCH-X-Rays](https://drive.google.com/file/d/1mrFJZ3M7aECe3weZvYF5G-DJYPc16zAi/view?usp=drive_link)
+[VQGAN - JSRT](https://drive.google.com/file/d/1sJv4iyUGo2NHMUOscWBtON1Rd7jm22QF/view?usp=drive_link)
+[UNet - JSRT](https://drive.google.com/file/d/1d1DmdHy84vWHGJs-74pMKRKfY66_4Dmx/view?usp=drive_link)
 
 
 ### Download the dataset
