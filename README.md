@@ -11,15 +11,13 @@ This code is a **pytorch** implementation of our paper **"GL-LCM: Global-Local L
 
 ## Primary Contributions
 
-1) We introduce an **end-to-end LDM-based framework for high-resolution bone suppression**, named **BS-LDM**. It utilizes a **multi-level hybrid loss-constrained VQGAN for effective perceptual compression**. This framework consistently generates soft tissue images with high levels of bone suppression while preserving fine details and critical lung lesions.
+1) 
+
+2) 
     
+3) 
 
-2) To enhance the quality of generated images, we incorporate **offset noise** and a **temporal adaptive thresholding strategy**. These innovations help minimize discrepancies in low-frequency information, thereby improving the interpretability of the soft tissue images.
-
-    
-3) We have compiled a comprehensive bone suppression dataset, **SZCH-X-Rays**, which includes 818 pairs of high-resolution CXR and DES soft tissue images from our partner hospital. Additionally, we processed 241 pairs of images from the **JSRT** dataset into negative formats more commonly used in clinical settings.
-
-4) Our **clinical evaluation** focused on image quality and diagnostic utility. The results demonstrated excellent image quality scores and substantial diagnostic improvements, underscoring the clinical significance of our work.
+4) 
     
 
 ## Proposed Method
