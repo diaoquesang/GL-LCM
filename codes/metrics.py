@@ -6,7 +6,6 @@ from config import config
 from openpyxl import Workbook
 
 import torch
-from skimage.metrics import structural_similarity as ssim
 from math import log10, sqrt
 import torchvision.transforms as transforms
 
@@ -49,21 +48,6 @@ def cal_MSE(gt_path, bs_path):
     return MSE
 
 
-def cal_SSIM(gt_path, bs_path):
-    gt = cv.imread(gt_path, 0)
-    bs = cv.imread(bs_path, 0)
-
-    gt = gt / 255
-    bs = bs / 255
-
-
-
-    gt = cv.resize(gt, (config.image_size, config.image_size))
-    bs = cv.resize(bs, (config.image_size, config.image_size))
-
-    SSIM = ssim(gt, bs, channel_axis=None, data_range=1)
-
-    return SSIM
 
 
 def cal_PSNR(gt_path, bs_path):
@@ -98,10 +82,8 @@ def cal_LPIPS(gt_path, bs_path):
 
 
 if __name__ == "__main__":
-    # 创建一个新的工作簿
     wb = Workbook()
 
-    # 选择默认的工作表
     ws = wb.active
 
     CXR_path = "SZCH-X-Rays/CXR"
@@ -110,11 +92,9 @@ if __name__ == "__main__":
 
     BSR_list = []
     MSE_list = []
-    SSIM_list = []
     PSNR_list = []
     LPIPS_list = []
-    HBD_list = []
-    ws.append(["Filename", "BSR", "MSE", "SSIM", "PSNR", "LPIPS"])
+    ws.append(["Filename", "BSR", "MSE", "PSNR", "LPIPS"])
     txt = 'SZCH_testset.txt'
     with open(txt, 'r', encoding='utf-8') as file:
         lines = file.readlines()
@@ -131,34 +111,28 @@ if __name__ == "__main__":
 
         BSR = cal_BSR(cxr_path, gt_path, bs_path)
         MSE = cal_MSE(gt_path, bs_path)
-        SSIM = cal_SSIM(gt_path, bs_path)
         PSNR = cal_PSNR(gt_path, bs_path)
         LPIPS = cal_LPIPS(gt_path, bs_path)
 
         BSR_list.append(BSR)
         MSE_list.append(MSE)
-        SSIM_list.append(SSIM)
         PSNR_list.append(PSNR)
         LPIPS_list.append(LPIPS)
-        print(f"{filename} BSR: {BSR} MSE: {MSE}  SSIM:{SSIM} PSNR:{PSNR} LPIPS:{LPIPS}")
-        # 可以使用append方法插入一行数据
-        ws.append([filename, BSR, MSE, SSIM, PSNR, LPIPS])
+        print(f"{filename} BSR: {BSR} MSE: {MSE} PSNR:{PSNR} LPIPS:{LPIPS}")
+        ws.append([filename, BSR, MSE, PSNR, LPIPS])
 
     ws.append(["Mean",
                np.mean(np.array(BSR_list)),
                np.mean(np.array(MSE_list)),
-               np.mean(np.array(SSIM_list)),
                np.mean(np.array(PSNR_list)),
                np.mean(np.array(LPIPS_list))])
     ws.append(["Std",
                np.std(np.array(BSR_list)),
                np.std(np.array(MSE_list)),
-               np.std(np.array(SSIM_list)),
                np.std(np.array(PSNR_list)),
                np.std(np.array(LPIPS_list))])
     print("Average BSR:", np.mean(np.array(BSR_list)), "Std:", np.std(np.array(BSR_list)))
     print("Average MSE:", np.mean(np.array(MSE_list)), "Std:", np.std(np.array(MSE_list)))
-    print("Average SSIM:", np.mean(np.array(SSIM_list)), "Std:", np.std(np.array(SSIM_list)))
     print("Average PSNR:", np.mean(np.array(PSNR_list)), "Std:", np.std(np.array(PSNR_list)))
     print("Average LPIPS:", np.mean(np.array(LPIPS_list)), "Std:", np.std(np.array(LPIPS_list)))
 
