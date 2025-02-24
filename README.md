@@ -24,36 +24,20 @@ To overcome these challenges, we propose Global-Local Latent Consistency Model (
 ## Proposed Method
 
 <div align="center">
-<img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/framework.png" width="80%">
+<img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/framework.png" width="100%">
 </div>
 
 Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual-path sampling in the latent space, and (c) Global-local fusion in the pixel space.
 
-## Visualization of high-frequency and low-frequency feature decomposition of latent variables before and after Gaussian noise addition using Discrete Fourier Transform
+## Comparisons
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/freq.png" width="80%">
+<img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/comparison.png" width="100%">
 </div>
 
-## Power spectral densities of soft tissue images in SZCH-X-Rays, corresponding latent variables and Gaussian noise on 201 spectrogram components, averaged over 10000 samples
+## Ablation Study
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/PSD.svg" width="80%">
+<img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/ablation.png" width="100%">
 </div>
-
-## Illustration of the composition of offset noise
-<div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/off.png" width="80%">
-</div>
-
-## Visualization of soft tissue images on SZCH-X-Rays and JSRT datasets produced by different methods
-<div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/comp.png" width="80%">
-</div>
-
-## Visualization of ablation studies of offset noise and the temporal adaptive thresholding strategy on BS-LDM, with histograms given to visualize the pixel intensity distribution more intuitively
-<div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/abl.png" width="80%">
-</div>
-
 
 ## Pre-requisties
 * Linux
@@ -74,7 +58,7 @@ The original JSRT dataset and precessed JSRT dataset are located at [https://dri
 
 Three paired images with CXRs and DES soft-tissues images of SZCH-X-Rays for testing are located at
 ```
-└─BS-LDM
+└─data
     ├─ CXR
     │   ├─ 0.png
     │   ├─ 1.png
