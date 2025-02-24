@@ -75,13 +75,13 @@ pip install -r requirements.txt
 ```
 
 ## Evaluation
-To do the evaluation process of VQGAN, please run the following command:
+To do the evaluation process of VQGAN for visualization, please run the following command:
 ```
 python vq-gan_eval.py
 ```      
-To do the evaluation process of the conditional latent diffusion model, please run the following command:
+To do the evaluation process of GL-LCM, please run the following command:
 ```
-python ldm_eval.py
+python batch_lcm_eval.py
 ```
 
 ## Training
@@ -93,23 +93,13 @@ Then, you can run the following command to train the VQGAN model:
 ```
 python vq-gan_train.py
 ```
-Then after finishing the training of VQGAN, you can use the saved VQGAN model as a decoder when training the conditional latent diffusion model by running the following command:
+Then after finishing the training of VQGAN, you can use the saved VQGAN model when training the noise estimator network of GL-LCM by running the following command:
 ```
-python ldm_train.py
+python lcm_train.py
 ```
 
 ## Metrics
-You can also run the following command about evaluation metrics in our experiment including BSR, MSE, PSNR and LPIPS:
+You can also run the following command about evaluation metrics including BSR, MSE, PSNR and LPIPS:
 ```
 python metrics.py
-```
-
-## Citation
-```
-@article{sun2024bs,
-  title={BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models},
-  author={Sun, Yifei and Chen, Zhanghao and Zheng, Hao and Ge, Ruiquan and Liu, Jin and Min, Wenwen and Elazab, Ahmed and Wan, Xiang and Wang, Changmiao},
-  journal={arXiv preprint arXiv:2412.15670},
-  year={2024}
-}
 ```
