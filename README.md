@@ -30,10 +30,13 @@ To overcome these challenges, we propose **Global-Local Latent Consistency Model
 Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual-path sampling in the latent space, and (c) Global-local fusion in the pixel space.
 
 ## Comparisons
+
+### Qualitative Results on SZCH-X-Rays and JSRT
 <div align="center">
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/comparison.png" width="100%">
 </div>
 
+### Quantitative Results on SZCH-X-Rays
 <table align="center">
   <thead>
     <tr>
@@ -123,10 +126,143 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
     </tr>
   </tbody>
 </table>
+
+### Quantitative Results on JSRT
+<table align="center">
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>BSR (%)↑</th>
+      <th>MSE (10⁻³)↓</th>
+      <th>PSNR↑</th>
+      <th>LPIPS↓</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="5">Universal Method</td>
+    </tr>
+    <tr>
+      <td>VAE</td>
+      <td>85.646 ± 9.327</td>
+      <td>1.224 ± 0.749</td>
+      <td>29.814 ± 2.364</td>
+      <td>0.155 ± 0.032</td>
+    </tr>
+    <tr>
+      <td>VQ-VAE</td>
+      <td>86.445 ± 8.881</td>
+      <td>0.986 ± 0.596</td>
+      <td>30.712 ± 2.273</td>
+      <td>0.062 ± 0.017</td>
+    </tr>
+    <tr>
+      <td>VQGAN</td>
+      <td>86.594 ± 8.916</td>
+      <td>1.002 ± 0.606</td>
+      <td>30.635 ± 2.255</td>
+      <td>0.061 ± 0.017</td>
+    </tr>
+    <tr>
+      <td colspan="5">Task-Specific Method</td>
+    </tr>
+    <tr>
+      <td>Gusarev et al.</td>
+      <td>89.283 ± 8.288</td>
+      <td>0.821 ± 0.570</td>
+      <td>31.700 ± 2.594</td>
+      <td>0.100 ± 0.024</td>
+    </tr>
+    <tr>
+      <td>MCA-Net</td>
+      <td>86.887 ± 9.825</td>
+      <td>0.876 ± 0.625</td>
+      <td>31.577 ± 2.905</td>
+      <td>0.057 ± 0.017</td>
+    </tr>
+    <tr>
+      <td>ResNet-BS</td>
+      <td>88.782 ± 8.905</td>
+      <td>0.960 ± 0.661</td>
+      <td>31.021 ± 2.576</td>
+      <td>0.060 ± 0.016</td>
+    </tr>
+    <tr>
+      <td>Wang et al.</td>
+      <td>89.679 ± 9.477</td>
+      <td>1.013 ± 0.655</td>
+      <td>30.681 ± 2.431</td>
+      <td>0.075 ± 0.015</td>
+    </tr>
+    <tr>
+      <td>BS-Diff</td>
+      <td>88.707 ± 8.859</td>
+      <td>1.003 ± 0.655</td>
+      <td>30.765 ± 2.504</td>
+      <td>0.154 ± 0.037</td>
+    </tr>
+    <tr>
+      <td>BS-LDM</td>
+      <td>89.322 ± 9.562</td>
+      <td>0.783 ± 0.632</td>
+      <td>32.307 ± 3.231</td>
+      <td>0.058 ± 0.017</td>
+    </tr>
+    <tr>
+      <td>GL-LCM (Ours)</td>
+      <td>90.056 ± 10.635</td>
+      <td>0.746 ± 0.680</td>
+      <td>32.951 ± 3.799</td>
+      <td>0.052 ± 0.015</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Ablation Study
+### Qualitative Results of LEG on SZCH-X-Rays and JSRT
 <div align="center">
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/ablation.png" width="100%">
 </div>
+
+### Quantitative Results on SZCH-X-Rays and JSRT
+<table align="center">
+  <thead>
+    <tr>
+      <th rowspan="2">Guidance Method</th>
+      <th colspan="2">SZCH-X-Rays</th>
+      <th colspan="2">JSRT</th>
+    </tr>
+    <tr>
+      <th>PSNR↑</th>
+      <th>LPIPS↓</th>
+      <th>PSNR↑</th>
+      <th>LPIPS↓</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Vanilla Guidance</td>
+      <td>32.777 ± 2.091</td>
+      <td>0.058 ± 0.016</td>
+      <td>32.296 ± 3.454</td>
+      <td>0.073 ± 0.020</td>
+    </tr>
+    <tr>
+      <td>CFG</td>
+      <td>32.315 ± 1.717</td>
+      <td>0.068 ± 0.013</td>
+      <td>32.613 ± 3.604</td>
+      <td>0.070 ± 0.015</td>
+    </tr>
+    <tr>
+      <td>LEG (Ours)</td>
+      <td>33.347 ± 1.829</td>
+      <td>0.056 ± 0.015</td>
+      <td>32.951 ± 3.799</td>
+      <td>0.052 ± 0.015</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Pre-requisties
 * Linux
