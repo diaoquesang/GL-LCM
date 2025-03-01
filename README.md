@@ -31,12 +31,12 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
 
 ## 🏎️Comparisons
 
-### Qualitative Results on SZCH-X-Rays and JSRT
+### - Qualitative Results on SZCH-X-Rays and JSRT
 <div align="center">
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/comparison.png" width="100%">
 </div>
 
-### Quantitative results on SZCH-X-Rays
+### - Quantitative results on SZCH-X-Rays
 <table align="center">
   <thead>
     <tr>
@@ -127,7 +127,7 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
   </tbody>
 </table>
 
-### Quantitative results on JSRT
+### - Quantitative results on JSRT
 <table align="center">
   <thead>
     <tr>
@@ -218,7 +218,7 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
   </tbody>
 </table>
 
-### Inference efficiency comparison on SZCH-X-Rays
+### - Inference efficiency comparison on SZCH-X-Rays
 <table align="center">
   <tr>
     <th>Method</th>
@@ -251,12 +251,12 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
 </table>
 
 ## 🙇Ablation study
-### Qualitative results of LEG on SZCH-X-Rays and JSRT
+### - Qualitative results of LEG on SZCH-X-Rays and JSRT
 <div align="center">
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/ablation.png" width="100%">
 </div>
 
-### Quantitative results of LEG on SZCH-X-Rays and JSRT
+### - Quantitative results of LEG on SZCH-X-Rays and JSRT
 <table align="center">
   <thead>
     <tr>
@@ -296,7 +296,7 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
   </tbody>
 </table>
 
-### Quantitative results of Poisson Fusion on SZCH-X-Rays and JSRT
+### - Quantitative results of Poisson Fusion on SZCH-X-Rays and JSRT
 <table align="center">
   <tr>
     <th rowspan="2">Fusion Strategy</th>
