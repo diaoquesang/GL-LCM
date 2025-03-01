@@ -1,6 +1,6 @@
 # GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images
 
-### This code is a **pytorch** implementation of our paper "GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images".
+### 🌟🌟🌟This code is a **pytorch** implementation of our paper "GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images".
 
 
 ## 🎥Visualization before and after bone suppression
@@ -12,13 +12,13 @@
 ## 💡Primary contributions
 To overcome these challenges, we propose **Global-Local Latent Consistency Model (GL-LCM)**. This is a novel framework for **fast high-resolution bone suppression in CXR images** based on **Latent Consistency Models (LCMs)**. Our key contributions are summarized as follows:
 
-1) The GL-LCM architecture facilitates **effective bone suppression** while retaining **texture details**. This is achieved through the design of **dual-path sampling** in the latent space combined with **global-local fusion** in the pixel space. 
+1) 🕐The GL-LCM architecture facilitates **effective bone suppression** while retaining **texture details**. This is achieved through the design of **dual-path sampling** in the latent space combined with **global-local fusion** in the pixel space. 
 
-2) GL-LCM significantly enhances inference efficiency, which requires only approximately **10%** of the inference time of current diffusion-based methods, making it more suitable for clinical applications.
+2) 🕑GL-LCM significantly enhances inference efficiency, which requires only approximately **10%** of the inference time of current diffusion-based methods, making it more suitable for clinical applications.
     
-3) We introduce **Local-Enhanced Guidance (LEG)** to mitigate potential **boundary artifacts** and **detail blurring** issues in local-path sampling, **without additional training**.
+3) 🕒We introduce **Local-Enhanced Guidance (LEG)** to mitigate potential **boundary artifacts** and **detail blurring** issues in local-path sampling, **without additional training**.
 
-4) Extensive experiments on both the self-collected dataset **SZCH-X-Rays** and the public dataset **JSRT** demonstrate exceptional performance and efficiency of our GL-LCM.
+4) 🕓Extensive experiments on both the self-collected dataset **SZCH-X-Rays** and the public dataset **JSRT** demonstrate exceptional performance and efficiency of our GL-LCM.
     
 
 ## 🧗Proposed method
