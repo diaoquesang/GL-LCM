@@ -224,7 +224,7 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/ablation.png" width="100%">
 </div>
 
-### Quantitative Results on SZCH-X-Rays and JSRT
+### Quantitative Results of LEG on SZCH-X-Rays and JSRT
 <table align="center">
   <thead>
     <tr>
@@ -262,6 +262,49 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
       <td><strong>0.052 ± 0.015</strong></td>
     </tr>
   </tbody>
+</table>
+
+### Quantitative Results of Poisson Fusion on SZCH-X-Rays and JSRT
+<table align="center">
+  <tr>
+    <th rowspan="2">Fusion Strategy</th>
+    <th colspan="2">SZCH-X-Rays</th>
+    <th colspan="2">JSRT</th>
+  </tr>
+  <tr>
+    <th>PSNR↑</th>
+    <th>LPIPS↓</th>
+    <th>PSNR↑</th>
+    <th>LPIPS↓</th>
+  </tr>
+  <tr>
+    <td>✗</td>
+    <td>31.360 ± 2.079</td>
+    <td>0.091 ± 0.020</td>
+    <td>31.638 ± 3.078</td>
+    <td>0.074 ± 0.021</td>
+  </tr>
+  <tr>
+    <td>α-Fusion</td>
+    <td>29.781 ± 1.522</td>
+    <td>0.181 ± 0.021</td>
+    <td>31.784 ± 3.043</td>
+    <td>0.092 ± 0.013</td>
+  </tr>
+  <tr>
+    <td>AE Fusion</td>
+    <td>30.850 ± 1.806</td>
+    <td>0.141 ± 0.028</td>
+    <td>31.835 ± 3.075</td>
+    <td>0.061 ± 0.017</td>
+  </tr>
+  <tr>
+    <td><strong>Poisson Fusion (Ours)</strong></td>
+    <td><strong>33.347 ± 1.829</strong></td>
+    <td><strong>0.056 ± 0.015</strong></td>
+    <td><strong>32.951 ± 3.799</strong></td>
+    <td><strong>0.052 ± 0.015</strong></td>
+  </tr>
 </table>
 
 ## Pre-requisties
