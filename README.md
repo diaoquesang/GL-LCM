@@ -34,6 +34,95 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/comparison.png" width="100%">
 </div>
 
+<table align="center">
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>BSR (%)↑</th>
+      <th>MSE (10⁻³)↓</th>
+      <th>PSNR↑</th>
+      <th>LPIPS↓</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="5">Universal Method</td>
+    </tr>
+    <tr>
+      <td>VAE</td>
+      <td>91.281 ± 3.088</td>
+      <td>1.169 ± 1.059</td>
+      <td>30.018 ± 2.007</td>
+      <td>0.237 ± 0.047</td>
+    </tr>
+    <tr>
+      <td>VQ-VAE</td>
+      <td>94.485 ± 2.407</td>
+      <td>0.645 ± 0.596</td>
+      <td>32.600 ± 2.071</td>
+      <td>0.137 ± 0.029</td>
+    </tr>
+    <tr>
+      <td>VQGAN</td>
+      <td>94.330 ± 3.402</td>
+      <td>0.923 ± 2.478</td>
+      <td>32.096 ± 2.420</td>
+      <td>0.083 ± 0.020</td>
+    </tr>
+    <tr>
+      <td colspan="5">Task-Specific Method</td>
+    </tr>
+    <tr>
+      <td>Gusarev et al.</td>
+      <td>94.142 ± 2.666</td>
+      <td>1.028 ± 2.201</td>
+      <td>31.369 ± 2.385</td>
+      <td>0.156 ± 0.031</td>
+    </tr>
+    <tr>
+      <td>MCA-Net</td>
+      <td>95.442 ± 2.095</td>
+      <td>0.611 ± 0.435</td>
+      <td>32.689 ± 1.939</td>
+      <td>0.079 ± 0.018</td>
+    </tr>
+    <tr>
+      <td>ResNet-BS</td>
+      <td>94.508 ± 1.733</td>
+      <td>0.646 ± 0.339</td>
+      <td>32.265 ± 1.635</td>
+      <td>0.107 ± 0.022</td>
+    </tr>
+    <tr>
+      <td>Wang et al.</td>
+      <td>89.767 ± 6.079</td>
+      <td>1.080 ± 0.610</td>
+      <td>29.963 ± 1.378</td>
+      <td>0.072 ± 0.016</td>
+    </tr>
+    <tr>
+      <td>BS-Diff</td>
+      <td>92.428 ± 3.258</td>
+      <td>0.947 ± 0.510</td>
+      <td>30.627 ± 1.690</td>
+      <td>0.212 ± 0.041</td>
+    </tr>
+    <tr>
+      <td>BS-LDM</td>
+      <td>94.159 ± 2.751</td>
+      <td>0.701 ± 0.293</td>
+      <td>31.953 ± 1.969</td>
+      <td>0.070 ± 0.018</td>
+    </tr>
+    <tr>
+      <td>GL-LCM (Ours)</td>
+      <td>95.611 ± 1.529</td>
+      <td>0.512 ± 0.293</td>
+      <td>33.347 ± 1.829</td>
+      <td>0.056 ± 0.015</td>
+    </tr>
+  </tbody>
+</table>
 ## Ablation Study
 <div align="center">
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/ablation.png" width="100%">
