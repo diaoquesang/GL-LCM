@@ -218,6 +218,38 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
   </tbody>
 </table>
 
+### Inference efficiency comparison on SZCH-X-Rays
+<table align="center">
+  <tr>
+    <th>Method</th>
+    <th>Sampler</th>
+    <th>Sampling Steps</th>
+    <th>Parameters</th>
+    <th>Inference Time (s)</th>
+  </tr>
+  <tr>
+    <td>BS-Diff</td>
+    <td>DDPM</td>
+    <td>1000</td>
+    <td>254.7M</td>
+    <td>108.86</td>
+  </tr>
+  <tr>
+    <td>BS-LDM</td>
+    <td>DDPM</td>
+    <td>1000</td>
+    <td>421.3M</td>
+    <td>84.62</td>
+  </tr>
+  <tr>
+    <td><strong>GL-LCM (Ours)</strong></td>
+    <td><strong>LCM</strong></td>
+    <td><strong>50</strong></td>
+    <td><strong>436.9M</strong></td>
+    <td><strong>8.54</strong></td>
+  </tr>
+</table>
+
 ## Ablation study
 ### Qualitative results of LEG on SZCH-X-Rays and JSRT
 <div align="center">
