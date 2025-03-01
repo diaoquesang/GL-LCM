@@ -118,11 +118,11 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
       <td>0.070 ± 0.018</td>
     </tr>
     <tr>
-      <td>GL-LCM (Ours)</td>
-      <td>95.611 ± 1.529</td>
-      <td>0.512 ± 0.293</td>
-      <td>33.347 ± 1.829</td>
-      <td>0.056 ± 0.015</td>
+      <td><strong>GL-LCM (Ours)</strong></td>
+      <td><strong>95.611 ± 1.529</strong></td>
+      <td><strong>0.512 ± 0.293</strong></td>
+      <td><strong>33.347 ± 1.829</strong></td>
+      <td><strong>0.056 ± 0.015</strong></td>
     </tr>
   </tbody>
 </table>
@@ -209,11 +209,11 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
       <td>0.058 ± 0.017</td>
     </tr>
     <tr>
-      <td>GL-LCM (Ours)</td>
-      <td>90.056 ± 10.635</td>
-      <td>0.746 ± 0.680</td>
-      <td>32.951 ± 3.799</td>
-      <td>0.052 ± 0.015</td>
+      <td><strong>GL-LCM (Ours)</strong></td>
+      <td><strong>90.056 ± 10.635</strong></td>
+      <td><strong>0.746 ± 0.680</strong></td>
+      <td><strong>32.951 ± 3.799</strong></td>
+      <td><strong>0.052 ± 0.015</strong></td>
     </tr>
   </tbody>
 </table>
@@ -255,11 +255,11 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
       <td>0.070 ± 0.015</td>
     </tr>
     <tr>
-      <td>LEG (Ours)</td>
-      <td>33.347 ± 1.829</td>
-      <td>0.056 ± 0.015</td>
-      <td>32.951 ± 3.799</td>
-      <td>0.052 ± 0.015</td>
+      <td><strong>LEG (Ours)</strong></td>
+      <td><strong>33.347 ± 1.829</strong></td>
+      <td><strong>0.056 ± 0.015</strong></td>
+      <td><strong>32.951 ± 3.799</strong></td>
+      <td><strong>0.052 ± 0.015</strong></td>
     </tr>
   </tbody>
 </table>
