@@ -9,7 +9,7 @@ This code is a **pytorch** implementation of our paper **"GL-LCM: Global-Local L
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/GL-LCM_gif.gif" width="50%">
 </div>
 
-## Primary Contributions
+## Primary contributions
 To overcome these challenges, we propose **Global-Local Latent Consistency Model (GL-LCM)**. This is a novel framework for **fast high-resolution bone suppression in CXR images** based on **Latent Consistency Models (LCMs)**. Our key contributions are summarized as follows:
 
 1) The GL-LCM architecture facilitates **effective bone suppression** while retaining **texture details**. This is achieved through the design of **dual-path sampling** in the latent space combined with **global-local fusion** in the pixel space. 
@@ -21,7 +21,7 @@ To overcome these challenges, we propose **Global-Local Latent Consistency Model
 4) Extensive experiments on both the self-collected dataset **SZCH-X-Rays** and the public dataset **JSRT** demonstrate exceptional performance and efficiency of our GL-LCM.
     
 
-## Proposed Method
+## Proposed method
 
 <div align="center">
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/framework.png" width="100%">
@@ -36,7 +36,7 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/comparison.png" width="100%">
 </div>
 
-### Quantitative Results on SZCH-X-Rays
+### Quantitative results on SZCH-X-Rays
 <table align="center">
   <thead>
     <tr>
@@ -127,7 +127,7 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
   </tbody>
 </table>
 
-### Quantitative Results on JSRT
+### Quantitative results on JSRT
 <table align="center">
   <thead>
     <tr>
@@ -218,13 +218,13 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
   </tbody>
 </table>
 
-## Ablation Study
-### Qualitative Results of LEG on SZCH-X-Rays and JSRT
+## Ablation study
+### Qualitative results of LEG on SZCH-X-Rays and JSRT
 <div align="center">
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/ablation.png" width="100%">
 </div>
 
-### Quantitative Results of LEG on SZCH-X-Rays and JSRT
+### Quantitative results of LEG on SZCH-X-Rays and JSRT
 <table align="center">
   <thead>
     <tr>
@@ -264,7 +264,7 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
   </tbody>
 </table>
 
-### Quantitative Results of Poisson Fusion on SZCH-X-Rays and JSRT
+### Quantitative results of Poisson Fusion on SZCH-X-Rays and JSRT
 <table align="center">
   <tr>
     <th rowspan="2">Fusion Strategy</th>
