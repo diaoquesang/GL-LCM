@@ -1,5 +1,9 @@
 # GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images
 
+<div align="center">
+[![](https://img.shields.io/github/license/diaoquesang/GL-LCM)](https://github.com/diaoquesang/GL-LCM/blob/main/LICENSE)  
+</div>
+
 ### 🌟🌟🌟This code is a **pytorch** implementation of our paper "GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images".
 
 
