@@ -354,7 +354,7 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
 [UNet - JSRT](https://drive.google.com/file/d/1d1DmdHy84vWHGJs-74pMKRKfY66_4Dmx/view?usp=drive_link)
 
 
-## 📦Download the dataset
+## 📦Download the datasets
 The original JSRT dataset and processed JSRT dataset are located at [https://drive.google.com/file/d/1RkiU85FFfouWuKQbpD7Pc7o3aZ7KrpYf/view?usp=sharing](https://drive.google.com/file/d/1RkiU85FFfouWuKQbpD7Pc7o3aZ7KrpYf/view?usp=sharing) and [https://drive.google.com/file/d/1o-T5l2RKdT5J75eBsqajqAuHPfZnzPhj/view?usp=sharing](https://drive.google.com/file/d/1o-T5l2RKdT5J75eBsqajqAuHPfZnzPhj/view?usp=sharing), respectively.
 
 Three paired images with CXRs and DES soft-tissues images of SZCH-X-Rays for testing are located at
