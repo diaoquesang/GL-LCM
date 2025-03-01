@@ -1,7 +1,7 @@
-# GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images
+# 🧑🏻‍🔬GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images
 
 
-### 🌟🌟🌟This code is a **pytorch** implementation of our paper "GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images".
+This code is a **pytorch** implementation of our paper "**GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images**".
 
 
 ## 🎥Visualization before and after bone suppression
