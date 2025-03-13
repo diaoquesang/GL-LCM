@@ -4,7 +4,7 @@
 This code is a **pytorch** implementation of our paper "**GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images**".
 
 
-## 🎥Visualization before and after bone suppression
+## 🎥Visualization before (left) and after (right) bone suppression
 
 <div align="center">
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/GL-LCM_gif.gif" width="50%">
