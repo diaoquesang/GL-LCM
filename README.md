@@ -257,6 +257,8 @@ Overview of GL-LCM framework. (a) Lung segmentation in the pixel space, (b) Dual
 <img src="https://github.com/diaoquesang/GL-LCM/blob/main/images/ablation.png" width="100%">
 </div>
 
+A pseudo-color zoomed-in view is shown in the bottom right corner, and the green arrows mark the boundary artifacts.
+
 ### - Quantitative results of LEG on SZCH-X-Rays and JSRT
 <table align="center">
   <thead>
