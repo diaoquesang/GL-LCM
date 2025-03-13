@@ -369,6 +369,7 @@ Three paired images with CXRs and DES soft-tissues images of SZCH-X-Rays for tes
         ├─ 1.png
         └─ 2.png
 ```
+To implement lung segmentation in data preparation, please use [lungSegmentation.ipynb](https://github.com/diaoquesang/GL-LCM/blob/main/codes/lungSegmentation.ipynb).
 
 ## 🫳Install dependencies
 ```
