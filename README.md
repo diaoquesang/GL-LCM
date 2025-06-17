@@ -1,6 +1,6 @@
 <div align="center">
 
-![](https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=GL-LCM:%20Global-Local%20Latent%20Consistency%20Models%20for%20Fast-nl-High-Resolution%20Bone%20Suppression%20in%20Chest%20X-Ray%20Images&reversal=false&fontSize=25&fontAlignY=30)
+![](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:2193b0,100:45ed3F&text=GL-LCM:%20Global-Local%20Latent%20Consistency%20Models%20for%20Fast-nl-High-Resolution%20Bone%20Suppression%20in%20Chest%20X-Ray%20Images&reversal=false&fontSize=25&fontAlignY=30&fontColor=FFFFFF)
 
 </div>
 
