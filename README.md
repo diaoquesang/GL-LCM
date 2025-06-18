@@ -1,6 +1,6 @@
 <div align="center">
 
-![](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:2193b0,100:45ed3F&text=GL-LCM:%20Global-Local%20Latent%20Consistency%20Models%20for%20Fast-nl-High-Resolution%20Bone%20Suppression%20in%20Chest%20X-Ray%20Images&reversal=false&fontSize=25&fontAlignY=30&fontColor=FFFFFF)
+![](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:2193b0,100:45ed3F&text=GL-LCM:%20Global-Local%20Latent%20Consistency%20Models%20for%20Fast-nl-High-Resolution%20Bone%20Suppression%20in%20Chest%20X-Ray%20Images&reversal=false&fontSize=25&fontAlignY=30&desc=Yifei%20Sun,%20Zhanghao%20Chen,%20Hao%20Zheng,%20Yuqing%20Lu,%20Lixin%20Duan,%20Fenglei%20Fan,%20Ahmed%20Elazab,%20Xiang%20Wan,%20Changmiao%20Wang,%20Ruiquan%20Ge&descSize=12&descAlignY=55&fontColor=FFFFFF)
 
 </div>
 
