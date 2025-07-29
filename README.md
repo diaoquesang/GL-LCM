@@ -14,7 +14,7 @@ This code is a **pytorch** implementation of our paper "**GL-LCM: Global-Local L
 </div>
 
 ## 💡 Primary contributions
-To overcome these challenges, we propose **Global-Local Latent Consistency Model (GL-LCM)**. This is a novel framework for **fast high-resolution bone suppression in CXR images** based on **Latent Consistency Models (LCMs)**. Our key contributions are summarized as follows:
+We propose **Global-Local Latent Consistency Model (GL-LCM)**. This is a novel framework for **fast high-resolution bone suppression in CXR images** based on **Latent Consistency Models (LCMs)**. Our key contributions are summarized as follows:
 
 1) 🕐The GL-LCM architecture facilitates **effective bone suppression** while retaining **texture details**. This is achieved through the design of **dual-path sampling** in the latent space combined with **global-local fusion** in the pixel space. 
 
