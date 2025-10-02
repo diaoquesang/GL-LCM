@@ -414,9 +414,10 @@ python metrics.py
 ## 📢 Citation
 ```
 @inproceedings{sun2025gl,
-  title={Gl-lcm: Global-local latent consistency models for fast high-resolution bone suppression in chest X-ray images},
-  author={Sun, Yifei and Chen, Zhanghao and Zheng, Hao and Lu, Yuqing and Duan, Lixin and Min, Wenwen and Fan, Fenglei and Elazab, Ahmed and Wan, Xiang and Wang, Changmiao and Ge, Ruiquan},
+  title={GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images},
+  author={Sun, Yifei and Chen, Zhanghao and Zheng, Hao and Lu, Yuqing and Duan, Lixin and Fan, Fenglei and Elazab, Ahmed and Wan, Xiang and Wang, Changmiao and Ge, Ruiquan},
   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={222--232},
   year={2025},
   organization={Springer}
 }
